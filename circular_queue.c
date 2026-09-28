@@ -1,3 +1,6 @@
+DSA Assignment
+Name: Rihan khan
+Student ID: BC2025503
 
 Q2. Circular Queue Using Array
 
@@ -5,12 +8,14 @@ Q2. Circular Queue Using Array
 A Circular Queue is a linear data structure that follows the FIFO (First In, First Out) principle. It is implemented using an array in which the last position is connected to the first position, forming a circular structure.
 In a circular queue, when the REAR reaches the last index, it can move back to the first index if space is available.
 Main Operations
+
 ENQUEUE(x): Adds an element x at the rear of the queue.
 DEQUEUE(): Removes an element from the front of the queue.
 FRONT(): Returns the element present at the front without removing it.
 DISPLAY(): Displays all elements currently present in the queue.
 
 2. Full and Empty Conditions
+
 Queue Empty
 The queue is empty when there is no element available for deletion.
 Condition:
@@ -50,7 +55,9 @@ FRONT
 O(1)
 DISPLAY
 O(n)
+
 Explanation
+
 ENQUEUE: Inserts an element at REAR, so it takes O(1) time.
 DEQUEUE: Removes an element from FRONT, so it takes O(1) time.
 FRONT: Directly accesses the front element, so it takes O(1) time.
